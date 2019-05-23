@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/hindi.txt",
+      "sha1": "63a7eda7cdb7b74a0c8996aff0e94784c09b20cf"
+    },
+    {
+      "path": "assets/english.txt",
+      "sha1": "da0062afd78a05e6b6b9e3873195f4f321af4216"
+    }
+  ]
+}

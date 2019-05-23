@@ -4866,6 +4866,11 @@ react-native-fs@^2.13.3:
     base-64 "^0.1.0"
     utf8 "^2.1.1"
 
+react-native-local-resource@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-native-local-resource/-/react-native-local-resource-0.1.6.tgz#9aea39488c7b3f3d107e9459d3d83c3ac707d24e"
+  integrity sha512-uDT6Ig8w6WkmA7ReIUG8soBkWJ94b/d1cnFHnlEMvMPlBf6fhPHh90mVdNTTYf95oT4sL09mBN5MYFDX4hRIiQ==
+
 react-native-tts@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-native-tts/-/react-native-tts-3.0.0.tgz#987d6bc5430f7d0bdc0c7c278eb72744fe3ec516"

@@ -10,6 +10,7 @@
     "react": "16.8.3",
     "react-native": "0.59.8",
     "react-native-fs": "^2.13.3",
+    "react-native-local-resource": "^0.1.6",
     "react-native-tts": "^3.0.0"
   },
   "devDependencies": {
@@ -22,5 +23,11 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/hindi.txt",
+      "./assets/english.txt"
+    ]
   }
 }
