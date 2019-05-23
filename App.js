@@ -1,16 +1,9 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, { Component } from 'react';
 import { PermissionsAndroid, StyleSheet, Text, View, Button } from 'react-native';
 import Tts from 'react-native-tts';
 import hindi from './assets/hindi.txt';
 import english from './assets/english.txt';
+import danish from './assets/danish.txt';
 import { textToSpeech } from './textToSpeech';
 
 export default class App extends Component {
@@ -38,13 +31,17 @@ export default class App extends Component {
     Tts.stop();
   }
 
-  onPressHindiPlay = async () => {
+  onPressHindiPlay =  () => {
     textToSpeech('hi-IN', hindi);
 
   }
 
-  onPressEnglishPlay = async () => {
+  onPressEnglishPlay =  () => {
     textToSpeech('en-US', english);
+  }
+
+  onPressDanishPlay = () => {
+    textToSpeech('da-DK', danish);
   }
 
   render() {
@@ -60,6 +57,13 @@ export default class App extends Component {
           <Button
             title="Play English"
             onPress={this.onPressEnglishPlay}
+          />
+        </View>
+
+        <View style={styles.buttonContainer}>
+          <Button
+            title="Play Danish"
+            onPress={this.onPressDanishPlay}
           />
         </View>
 
